@@ -44,18 +44,19 @@ form input {
     font-size: 24px;
     background-color: #fff;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(45, 44, 44, 0.455);
     padding: 8px;
 }
 
 form button {
-    background-color: #000;
+    background-color: #000000;
     color:rgb(0, 255, 255); 
     font-size: 22px;
     font-weight: bold;
     border: none;
+    border-radius: 15px;
     cursor: pointer;
-    padding: 8px;
+    padding :10px 20px;
 }
 
 table{
