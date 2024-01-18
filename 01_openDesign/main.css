@@ -10,10 +10,10 @@
 }
 
 body {
-    background-color: beige;
+    background-color: rgb(220, 245, 245);
 }
 
-header {
+header .container {
     padding: 16px 50px;
     background-color: #000000;
     color: #ecf0f1;
@@ -47,12 +47,12 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container,
-section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    header .container,
+    section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
 .brands-list img {
     height: 44px;
